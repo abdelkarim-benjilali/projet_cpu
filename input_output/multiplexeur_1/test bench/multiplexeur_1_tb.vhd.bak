@@ -1,0 +1,27 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+use work.Constants.all;    
+    entity multiplexeur_1_tb is 
+end multiplexeur_1_tb;
+
+architecture RTL of multiplexeur_1_tb is 
+component multiplexeur_1 
+    port(dout_1:in std_logic_vector(7 downto 0);
+        opcode_1:in std_logic_vector(4 downto 0);
+        dbus_1: out std_logic_vector(15 downto 0));
+    end component;
+    signal dout_1:std_logic_vector(7 downto 0);
+    signal opcode_1:std_logic_vector(4 downto 0);
+    signal dbus_1:std_logic_vector(15 downto 0);
+    
+    begin 
+        u0:multiplexeur_1 port map(dout_1,opcode_1,dbus_1);
+        process
+            begin
+                dout_1<="11111111";
+                opcode_1<=OPCodeGET;
+                wait for 20 ns;
+                opcode_1<="00000";
+                wait for 20 ns;
+            end process;
+        end RTL;                 

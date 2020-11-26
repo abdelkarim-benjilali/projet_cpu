@@ -1,0 +1,46 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use work.constants.all;
+    entity ram_tb is
+end ram_tb;
+
+architecture RTL of ram_tb is 
+component ram 
+    port(test : out STD_LOGIC_VECTOR(15 downto 0); --Test ONLY
+			  clk_ram, reset_ram : in  STD_LOGIC;
+			  dbus_in_ram : in STD_LOGIC_VECTOR  (15 downto 0);
+			  dbus_out_ram:out  STD_LOGIC_VECTOR  (15 downto 0);
+           addbus_ram : in  STD_LOGIC_VECTOR (7 downto 0);
+           read_ram,write_ram : in  STD_LOGIC);
+       end component;
+       signal dbus_out_ram, test,dbus_in_ram:  STD_LOGIC_VECTOR  (15 downto 0);
+       signal clk_ram, reset_ram,read_ram,Write_ram  :   STD_LOGIC;
+       signal addbus_ram :   STD_LOGIC_VECTOR (7 downto 0); 
+       begin
+           u0:ram port map(test,clk_ram,reset_ram,dbus_in_ram,dbus_out_ram,addbus_ram,read_ram,write_ram);
+           process
+               begin
+                   clk_ram<='0';
+                   reset_ram<='0';
+                   wait for 10 ns;
+                   clk_ram<='1';
+                   wait for 10 ns;
+               end process;
+               process 
+                   begin
+                       read_ram<='0';
+                       write_ram<='0';
+                       dbus_in_ram<=(others=>'0');
+                       addbus_ram<=(others=>'0');
+                       wait for 10 ns;
+                       addbus_ram<=("00000001");
+                       read_ram<='1';
+                       wait for 10 ns;
+                       addbus_ram<=("00000001");
+                       dbus_in_ram<=("1111000011110000");
+                       read_ram<='0';
+                       write_ram<='1';
+                       wait for 10 ns;
+                   end process;
+               end RTL;
+                       

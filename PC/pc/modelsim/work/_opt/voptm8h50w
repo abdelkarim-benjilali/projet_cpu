@@ -1,0 +1,179 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim
+T_opt
+Z2 V`hE2V2TOj[9IP4>7MTHN:2
+Z3 04 5 3 work pc_tb rtl 0
+Z4 =1-c80aa9f93a8a-5f5bee1c-1d3-d60
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+T_opt1
+Z8 VD^:U[eac4A;^IQ8m3WR^i1
+Z9 04 6 3 work mux_tb rtl 0
+Z10 =1-1eac4c20eafd-5f1f970b-8a-da4
+R5
+R6
+R7
+T_opt2
+Z11 VUl[zW`HG^Kh=c8Y8ToPFf1
+Z12 04 10 3 work registre_1 rtl 0
+Z13 =1-c80aa9f93a8a-5f5be73f-3ab-1ea8
+R5
+R6
+R7
+Pconstants
+Z14 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z15 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z16 w1595818212
+Z17 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z18 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+Z19 V1EFnOb5IkbKzLeNfkzJFn2
+Z20 OE;C;6.3f;37
+Z21 o-work work
+R6
+Bbody
+Z22 DBx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R14
+32
+R15
+l0
+L34
+Z23 Vdz_FzaUUIY4oT8P3<M7e73
+R20
+R21
+R6
+nbody
+Emux
+Z24 w1595905767
+Z25 DPx4 work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+Z26 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z27 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z28 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+Z29 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+l0
+L5
+Z30 V^hfBMRm5k64^^0eeKMDC?3
+R20
+32
+R21
+R6
+Artl
+Z31 DPx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+Z32 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R14
+Z33 DEx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 3 mux 0 22 ^hfBMRm5k64^^0eeKMDC?3
+32
+Z34 Mx3 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z35 Mx2 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+Z36 Mx1 54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 9 constants
+l12
+L11
+Z37 VVaIP1C4jcEA@SBY9RHCBf0
+R20
+R21
+R6
+Emux_tb
+Z38 w1595905787
+R25
+R27
+Z39 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+Z40 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+l0
+L4
+Z41 V?L0Ll;QVjPiV2V3[Na>ZU2
+R20
+32
+R21
+R6
+Artl
+R25
+R27
+Z42 DEx4 work 6 mux_tb 0 22 ?L0Ll;QVjPiV2V3[Na>ZU2
+l15
+L6
+Z43 VXHVfQOHXKPf6Ql:IYd_EQ3
+R20
+32
+Z44 Mx2 4 ieee 14 std_logic_1164
+Z45 Mx1 4 work 9 constants
+R21
+R6
+Epc
+Z46 w1599859041
+R27
+Z47 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/source/pc.vhd
+Z48 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/source/pc.vhd
+l0
+L4
+Z49 V@]d1z=nl[RMnOMA>d9HV;3
+R20
+32
+R21
+R6
+Artl
+Z50 DEx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 10 registre_1 0 22 bge4f1XWiez;MJ`TJ@G7=0
+R33
+R14
+Z51 DEx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 2 pc 0 22 @]d1z=nl[RMnOMA>d9HV;3
+32
+R15
+l25
+L10
+Z52 VYoad@l5=N4io=YTcd4hLz3
+R20
+R21
+R6
+Z53 w1596733738
+Epc_tb
+Z54 w1599860243
+R14
+32
+Z55 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/test bench/pc_tb.vhd
+Z56 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/test bench/pc_tb.vhd
+l0
+L3
+Z57 V7@FodPNGKOHCD8CH99XU30
+R20
+R21
+R6
+Artl
+R51
+R14
+Z58 DEx54 E:\karim\etudes\S2\VHDL\projet_cpu\PC\pc\modelsim\work 5 pc_tb 0 22 7@FodPNGKOHCD8CH99XU30
+32
+R15
+l14
+L5
+Z59 V?C_z1=XG?;nOZ?L]6na3[2
+R20
+R21
+R6
+Eregistre_1
+Z60 w1599856811
+R27
+Z61 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+Z62 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+l0
+L4
+Z63 Vbge4f1XWiez;MJ`TJ@G7=0
+R20
+32
+R21
+R6
+Artl
+R14
+R50
+32
+R15
+l12
+L11
+Z64 V@Bzg5HQX:TC6FAYBfYiJ^3
+R20
+R21
+R6

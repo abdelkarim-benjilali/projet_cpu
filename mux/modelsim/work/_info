@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\karim\etudes\S2\VHDL\projet_cpu\mux\modelsim
+T_opt
+VJQHogAMY6bfi>3OF>PI5j3
+04 6 3 work mux_tb rtl 0
+=1-c80aa9f93a8a-5f24444a-296-c10
+o-quiet -auto_acc_if_foreign -work work
+Z1 tExplicit 1
+OE;O;6.3f;37
+Pconstants
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 w1595818212
+Z4 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z5 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+V1EFnOb5IkbKzLeNfkzJFn2
+Z6 OE;C;6.3f;37
+32
+Z7 Mx1 4 ieee 14 std_logic_1164
+Z8 o-work work
+R1
+Bbody
+DBx4 work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R2
+l0
+L34
+Vdz_FzaUUIY4oT8P3<M7e73
+R6
+32
+R7
+R8
+R1
+nbody
+Emux_up
+Z9 w1596291905
+Z10 DPx4 work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R2
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/mux/source/mux.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/mux/source/mux.vhd
+l0
+L4
+VgFKE=J6]oNTJTez<PKNLF2
+R6
+32
+R8
+R1
+Artl
+R10
+R2
+DEx4 work 6 mux_up 0 22 gFKE=J6]oNTJTez<PKNLF2
+l11
+L10
+VY>7nkg`XC`6KLi;C507S60
+R6
+32
+Z13 Mx2 4 ieee 14 std_logic_1164
+Z14 Mx1 4 work 9 constants
+R8
+R1
+Emux_up_tb
+Z15 w1596291993
+R10
+R2
+Z16 8E:/karim/etudes/S2/VHDL/projet_cpu/mux/test bench/mux_tb.vhd
+Z17 FE:/karim/etudes/S2/VHDL/projet_cpu/mux/test bench/mux_tb.vhd
+l0
+L5
+V2FIGj1EOQmWWdnK5A<0ZY2
+R6
+32
+R8
+R1
+Artl
+R10
+R2
+DEx4 work 9 mux_up_tb 0 22 2FIGj1EOQmWWdnK5A<0ZY2
+l17
+L7
+V4W4g8F>?@E:3BolVZ113X1
+R6
+32
+R13
+R14
+R8
+R1

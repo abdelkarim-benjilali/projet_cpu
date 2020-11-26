@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.065 ns
+From           : dbus_in_up[7]
+To             : alu:u0|registre_1:u3|data_out_reg_1[7]
+From Clock     : --
+To Clock       : clk_up
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.726 ns
+From           : top:u3|registre:u1|opcode_reg[3]
+To             : addbus_up[4]
+From Clock     : clk_up
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.002 ns
+From           : dbus_in_up[0]
+To             : top:u3|registre:u1|opdata_reg[0]
+From Clock     : --
+To Clock       : clk_up
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_up'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 165.92 MHz ( period = 6.027 ns )
+From           : top:u3|registre:u1|opcode_reg[2]
+To             : alu:u0|registre_1:u3|data_out_reg_1[7]
+From Clock     : clk_up
+To Clock       : clk_up
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

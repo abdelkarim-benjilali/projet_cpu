@@ -1,0 +1,832 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim
+T_opt
+Z2 V^55Mf`G4nM`OWICJeWE1F2
+Z3 04 5 3 work up_tb rtl 0
+Z4 =1-c80aa9f93a8a-5f5bf6c3-e7-26bc
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Ealu
+Z8 w1595882403
+Z9 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z10 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/alu/source/alu.vhd
+Z11 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/alu/source/alu.vhd
+l0
+L4
+Z12 V>OmoM^RL:GMKai4e0?S;G3
+Z13 OE;C;6.3f;37
+Z14 o-work work
+R6
+Artl
+Z15 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 4 flag 0 22 JIXe6MDb`hW7BSD8RO<CI3
+Z16 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 10 registre_1 0 22 bge4f1XWiez;MJ`TJ@G7=0
+Z17 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 14 multiplexeur_1 0 22 ]ZnI0g2lzU5K;J7m;F05S1
+Z18 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 5 opmux 0 22 ea4]aYzl?D^2;lV3Cjc`o2
+R9
+Z19 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 3 alu 0 22 >OmoM^RL:GMKai4e0?S;G3
+32
+Z20 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+l35
+L12
+Z21 VFP2JNcL=?F2=oRgT9;R`=2
+R13
+R14
+R6
+Ealu_tb
+Z22 w1595889905
+Z23 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z24 DPx4 work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+Z25 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z26 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/alu/test bench/alu_tb
+Z27 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/alu/test bench/alu_tb
+l0
+L5
+Z28 V_89MObIk8chjSSjkSH8_R1
+R13
+32
+R14
+R6
+Artl
+R23
+R24
+R25
+Z29 DEx4 work 6 alu_tb 0 22 _89MObIk8chjSSjkSH8_R1
+l22
+L8
+Z30 VGPQP?^2gz9DYFk:87KScj2
+R13
+32
+Z31 Mx3 4 ieee 14 std_logic_1164
+Z32 Mx2 4 work 9 constants
+Z33 Mx1 4 ieee 11 numeric_std
+R14
+R6
+Pconstants
+R9
+32
+R20
+Z34 w1595818212
+Z35 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z36 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+Z37 V1EFnOb5IkbKzLeNfkzJFn2
+R13
+R14
+R6
+Bbody
+DBx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R9
+32
+R20
+l0
+L34
+Z38 Vdz_FzaUUIY4oT8P3<M7e73
+R13
+R14
+R6
+nbody
+Eflag
+w0
+R9
+32
+Z39 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/source/flag
+Z40 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/source/flag
+l0
+L3
+Z41 VJIXe6MDb`hW7BSD8RO<CI3
+R13
+R14
+R6
+Artl
+R9
+R15
+32
+R20
+l8
+L7
+Z42 VF5A<4zI>f^nzm0hMiP<nW1
+R13
+R14
+R6
+Eioh
+Z43 w1596215200
+R9
+32
+Z44 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/ioh/source/ioh.vhd
+Z45 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/ioh/source/ioh.vhd
+l0
+L4
+Z46 Vbi]E0:JPA39]m@UfzUhKm1
+R13
+R14
+R6
+Artl
+Z47 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 18 multiplexeur_4_ioh 0 22 ^GdNCG]2YOzYAcbz0APjN1
+Z48 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 18 multiplexeur_3_ioh 0 22 Aodehl]>j8`jK@@T:;_TM0
+Z49 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 18 multiplexeur_2_ioh 0 22 6F6TE`W_4UCE7BBA;cjfR0
+Z50 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 18 multiplexeur_1_ioh 0 22 6aKOM;R689=;j[OW29nKi2
+R9
+Z51 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 3 ioh 0 22 bi]E0:JPA39]m@UfzUhKm1
+32
+R20
+l36
+L14
+Z52 VH0zU@1@?Qf7=agZa_VO@Q3
+R13
+R14
+R6
+Eioh_tb
+Z53 w1596137070
+R24
+R25
+Z54 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/ioh/test bench/ioh_tb.vhd
+Z55 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/ioh/test bench/ioh_tb.vhd
+l0
+L4
+Z56 V6CD=R:LjSP@f>jll<JA2a0
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z57 DEx4 work 6 ioh_tb 0 22 6CD=R:LjSP@f>jll<JA2a0
+l22
+L7
+Z58 VeY>5EaWiLB4VA_NnfYbD]3
+R13
+32
+Z59 Mx2 4 ieee 14 std_logic_1164
+Z60 Mx1 4 work 9 constants
+R14
+R6
+Emultiplexeur
+Z61 w1595974544
+Z62 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R9
+32
+Z63 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+Z64 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+l0
+L4
+Z65 V<=4]ZDHclVj3ie_Wj1]f83
+R13
+R14
+R6
+Artl
+R62
+R9
+Z66 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 12 multiplexeur 0 22 <=4]ZDHclVj3ie_Wj1]f83
+32
+Z67 Mx2 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z68 Mx1 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+l11
+L10
+Z69 VzTP<>1QQQ[_GUGT?C5keE0
+R13
+R14
+R6
+Emultiplexeur_1
+w0
+R62
+R9
+32
+Z70 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/source/multiplexeur_1
+Z71 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/source/multiplexeur_1
+l0
+L4
+Z72 V]ZnI0g2lzU5K;J7m;F05S1
+R13
+R14
+R6
+Artl
+R62
+R9
+R17
+32
+R67
+R68
+l11
+L10
+Z73 VROgNhDiF:ZiYYMiloO;6e3
+R13
+R14
+R6
+Emultiplexeur_1_ioh
+Z74 w1596214994
+Z75 DPx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R9
+32
+Z76 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_1/source/multiplexeur_1.vhd
+Z77 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_1/source/multiplexeur_1.vhd
+l0
+L5
+Z78 V6aKOM;R689=;j[OW29nKi2
+R13
+R14
+R6
+Artl
+R75
+R9
+R50
+32
+R67
+Z79 Mx1 51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 9 constants
+l11
+L10
+Z80 Vhni_niH[ndHbe0HH9zX@E0
+R13
+R14
+R6
+Emultiplexeur_1_ioh_tb
+Z81 w1596215035
+R24
+R25
+Z82 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_1/test bench/multiplexeur_1_tb.vhd
+Z83 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_1/test bench/multiplexeur_1_tb.vhd
+l0
+L4
+Z84 V8H:niPADLBFjMJEKFJ0@W0
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z85 DEx4 work 21 multiplexeur_1_ioh_tb 0 22 8H:niPADLBFjMJEKFJ0@W0
+l17
+L7
+Z86 V<XA`ZBdKSm5dSXG0G`68@3
+R13
+32
+R59
+R60
+R14
+R6
+Emultiplexeur_2_ioh
+Z87 w1596215062
+R75
+R9
+32
+Z88 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_2/source/multiplexeur_2.vhd
+Z89 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_2/source/multiplexeur_2.vhd
+l0
+L4
+Z90 V6F6TE`W_4UCE7BBA;cjfR0
+R13
+R14
+R6
+Artl
+R75
+R9
+R49
+32
+R67
+R79
+l12
+L11
+Z91 VIbaQS;7j8:zMFZK]dGQ`k2
+R13
+R14
+R6
+Emultiplexeur_2_ioh_tb
+Z92 w1596215086
+R24
+R25
+Z93 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_2/test bench/multiplexeur_2_tb.vhd
+Z94 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_2/test bench/multiplexeur_2_tb.vhd
+l0
+L4
+Z95 VED6?he`@zA7^OF@FL]L_L2
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z96 DEx4 work 21 multiplexeur_2_ioh_tb 0 22 ED6?he`@zA7^OF@FL]L_L2
+l17
+L6
+Z97 VCL_f72aLnin^f8k0Wj:=Y0
+R13
+32
+R59
+R60
+R14
+R6
+Emultiplexeur_3_ioh
+Z98 w1596215101
+R75
+R9
+32
+Z99 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_3/source/multiplexeur_3.vhd
+Z100 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_3/source/multiplexeur_3.vhd
+l0
+L4
+Z101 VAodehl]>j8`jK@@T:;_TM0
+R13
+R14
+R6
+Artl
+R75
+R9
+R48
+32
+R67
+R79
+l10
+L9
+Z102 VJj3ESfE]XI`^OEzd]C1@J0
+R13
+R14
+R6
+Emultiplexeur_3_ioh_tb
+Z103 w1596215125
+R24
+R25
+Z104 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_3/test bench/multiplexeur_3_tb.vhd
+Z105 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_3/test bench/multiplexeur_3_tb.vhd
+l0
+L4
+Z106 V^m^DbT;=1^cQ=nYkaS1De1
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z107 DEx4 work 21 multiplexeur_3_ioh_tb 0 22 ^m^DbT;=1^cQ=nYkaS1De1
+l15
+L7
+Z108 VIc5Z1H^Q8;hJkHf>Kbl>E2
+R13
+32
+R59
+R60
+R14
+R6
+Emultiplexeur_4_ioh
+Z109 w1596215141
+R75
+R9
+32
+Z110 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_4/source/multiplexeur_4.vhd
+Z111 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_4/source/multiplexeur_4.vhd
+l0
+L4
+Z112 V^GdNCG]2YOzYAcbz0APjN1
+R13
+R14
+R6
+Artl
+R75
+R9
+R47
+32
+R67
+R79
+l9
+L8
+Z113 V7DKo:A_Sk?gQnOQTVb2X02
+R13
+R14
+R6
+Emultiplexeur_4_ioh_tb
+Z114 w1596215165
+R24
+R25
+Z115 8E:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_4/test bench/multiplexeur_4_tb.vhd
+Z116 FE:/karim/etudes/S2/VHDL/projet_cpu/input_output/multiplexeur_4/test bench/multiplexeur_4_tb.vhd
+l0
+L4
+Z117 VgWeDzX]NG:3P9z[B:DYAl0
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z118 DEx4 work 21 multiplexeur_4_ioh_tb 0 22 gWeDzX]NG:3P9z[B:DYAl0
+l13
+L6
+Z119 VRCAAVlc81LhPKJM9L^=To1
+R13
+32
+R59
+R60
+R14
+R6
+Emultiplexeur_tb
+Z120 w1595974628
+R25
+Z121 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+Z122 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+l0
+L4
+Z123 VgkN_bhgz7l7IA4]cgJe=K2
+R13
+32
+R14
+R6
+Artl
+R25
+Z124 DEx4 work 15 multiplexeur_tb 0 22 gkN_bhgz7l7IA4]cgJe=K2
+l16
+L7
+Z125 V<CZ3@ojTZSnin2<>ghInJ0
+R13
+32
+Z126 Mx1 4 ieee 14 std_logic_1164
+R14
+R6
+Emux
+Z127 w1595905767
+R75
+R62
+R9
+32
+Z128 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+Z129 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+l0
+L5
+Z130 V^hfBMRm5k64^^0eeKMDC?3
+R13
+R14
+R6
+Artl
+R75
+R62
+R9
+Z131 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 3 mux 0 22 ^hfBMRm5k64^^0eeKMDC?3
+32
+Z132 Mx3 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Mx2 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+R79
+l12
+L11
+Z133 VVaIP1C4jcEA@SBY9RHCBf0
+R13
+R14
+R6
+Emux_tb
+Z134 w1596309338
+R24
+R25
+Z135 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+Z136 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+l0
+L4
+Z137 V?L0Ll;QVjPiV2V3[Na>ZU2
+R13
+32
+R14
+R6
+Artl
+R24
+R25
+Z138 DEx4 work 6 mux_tb 0 22 ?L0Ll;QVjPiV2V3[Na>ZU2
+l15
+L6
+Z139 VWAedDY<BLCVZMRZaRS5b@2
+R13
+32
+R59
+R60
+R14
+R6
+Emux_up
+Z140 w1596291905
+R75
+R9
+32
+Z141 8E:/karim/etudes/S2/VHDL/projet_cpu/mux/source/mux.vhd
+Z142 FE:/karim/etudes/S2/VHDL/projet_cpu/mux/source/mux.vhd
+l0
+L4
+Z143 VgFKE=J6]oNTJTez<PKNLF2
+R13
+R14
+R6
+Artl
+R75
+R9
+Z144 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 6 mux_up 0 22 gFKE=J6]oNTJTez<PKNLF2
+32
+R67
+R79
+l11
+L10
+Z145 VY>7nkg`XC`6KLi;C507S60
+R13
+R14
+R6
+Eopmux
+Z146 w1595818419
+R62
+R75
+R9
+32
+Z147 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/source/opmux.vhd
+Z148 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/source/opmux.vhd
+l0
+L5
+Z149 Vea4]aYzl?D^2;lV3Cjc`o2
+R13
+R14
+R6
+Artl
+R62
+R75
+R9
+R18
+32
+R132
+Mx2 51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 9 constants
+R68
+l11
+L10
+Z150 Vfb^TEGiJRARN<N[8UYK4d1
+R13
+R14
+R6
+Epc
+Z151 w1599859041
+R9
+32
+Z152 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/source/pc.vhd
+Z153 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/source/pc.vhd
+l0
+L4
+Z154 V@]d1z=nl[RMnOMA>d9HV;3
+R13
+R14
+R6
+Artl
+R16
+R131
+R9
+Z155 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 2 pc 0 22 @]d1z=nl[RMnOMA>d9HV;3
+32
+R20
+l25
+L10
+Z156 VYoad@l5=N4io=YTcd4hLz3
+R13
+R14
+R6
+Epc_tb
+Z157 w1599860243
+R25
+Z158 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/test bench/pc_tb.vhd
+Z159 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/pc/test bench/pc_tb.vhd
+l0
+L3
+Z160 V7@FodPNGKOHCD8CH99XU30
+R13
+32
+R14
+R6
+Artl
+R25
+Z161 DEx4 work 5 pc_tb 0 22 7@FodPNGKOHCD8CH99XU30
+l14
+L5
+Z162 V?C_z1=XG?;nOZ?L]6na3[2
+R13
+32
+R126
+R14
+R6
+Eregistre
+Z163 w1595975989
+R9
+32
+Z164 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/source/registre.vhd
+Z165 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/source/registre.vhd
+l0
+L4
+Z166 VfaEY:Po4Xl]OA4D_a_J`e1
+R13
+R14
+R6
+Artl
+R9
+Z167 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 8 registre 0 22 faEY:Po4Xl]OA4D_a_J`e1
+32
+R20
+l16
+L15
+Z168 VQdC>P>I2RBIVE>NT9H2:<1
+R13
+R14
+R6
+Eregistre_1
+Z169 w1599856811
+R9
+32
+Z170 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+Z171 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+l0
+L4
+Z172 Vbge4f1XWiez;MJ`TJ@G7=0
+R13
+R14
+R6
+Artl
+R9
+R16
+32
+R20
+l12
+L11
+Z173 V@Bzg5HQX:TC6FAYBfYiJ^3
+R13
+R14
+R6
+Eregistre_2
+Z174 w1596044898
+R9
+32
+Z175 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+Z176 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+l0
+L4
+Z177 VQ0FT7UH;NEfl3TY@0SM511
+R13
+R14
+R6
+Artl
+R9
+Z178 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 10 registre_2 0 22 Q0FT7UH;NEfl3TY@0SM511
+32
+R20
+l11
+L10
+Z179 VCH>LU=dgTX@M;m:>_OElz0
+R13
+R14
+R6
+Eregistre_2_tb
+Z180 w1596308431
+R25
+Z181 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+Z182 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+l0
+L4
+Z183 ViZ;EiU]U`RaTP[S;5BX]33
+R13
+32
+R14
+R6
+Artl
+R25
+Z184 DEx4 work 13 registre_2_tb 0 22 iZ;EiU]U`RaTP[S;5BX]33
+l15
+L7
+Z185 Vi;JU8gd=ng3A@J@c1Ql7n1
+R13
+32
+R126
+R14
+R6
+Eregistre_tb
+Z186 w1595976472
+R25
+Z187 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/test bench/registre_tb.vhd
+Z188 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/test bench/registre_tb.vhd
+l0
+L4
+Z189 ViLFg`[FZ>bc8dXLLM2jFA0
+R13
+32
+R14
+R6
+Artl
+R25
+Z190 DEx4 work 11 registre_tb 0 22 iLFg`[FZ>bc8dXLLM2jFA0
+l22
+L7
+Z191 VnS@]R^Ql@8Ao`VGN0XHc80
+R13
+32
+R126
+R14
+R6
+Etop
+Z192 w1596044049
+R9
+32
+Z193 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/source/top.vhd
+Z194 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/source/top.vhd
+l0
+L4
+Z195 V_Z1X<lEj[Wdj^[^aoJJJN1
+R13
+R14
+R6
+Artl
+R178
+R167
+R66
+R9
+Z196 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 3 top 0 22 _Z1X<lEj[Wdj^[^aoJJJN1
+32
+R20
+l34
+L13
+Z197 V@eV619z;g]h><K[MGLAGJ0
+R13
+R14
+R6
+Etop_tb
+Z198 w1596042365
+R25
+Z199 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/test bench/top_tb.vhd
+Z200 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/test bench/top_tb.vhd
+l0
+L4
+Z201 V0<U3Cij8SOzT9ZbFb@Yn80
+R13
+32
+R14
+R6
+Artl
+R25
+Z202 DEx4 work 6 top_tb 0 22 0<U3Cij8SOzT9ZbFb@Yn80
+l23
+L7
+Z203 VKHRHgE^0K3WbZCEoIe@]^2
+R13
+32
+R126
+R14
+R6
+Eup
+Z204 w1596292079
+R75
+R9
+32
+Z205 8E:/karim/etudes/S2/VHDL/projet_cpu/up/source/up.vhd
+Z206 FE:/karim/etudes/S2/VHDL/projet_cpu/up/source/up.vhd
+l0
+L4
+Z207 V=h^W6jQL=GWMGZdGG8>@k1
+R13
+R14
+R6
+Artl
+R51
+R196
+R144
+R155
+R19
+R75
+R9
+Z208 DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 2 up 0 22 =h^W6jQL=GWMGZdGG8>@k1
+32
+R67
+R79
+l55
+L11
+Z209 V=`Tj6fYJLWKkAhBom=OoZ2
+R13
+R14
+R6
+Eup_tb
+Z210 w1596310597
+R75
+R9
+32
+Z211 8E:/karim/etudes/S2/VHDL/projet_cpu/up/test bench/up_tb.vhd
+Z212 FE:/karim/etudes/S2/VHDL/projet_cpu/up/test bench/up_tb.vhd
+l0
+L4
+Z213 VjR:AaOVB<fdT;`O^zl]i;1
+R13
+R14
+R6
+Artl
+R208
+R75
+R9
+DEx51 E:\karim\etudes\S2\VHDL\projet_cpu\up\modelsim\work 5 up_tb 0 22 jR:AaOVB<fdT;`O^zl]i;1
+32
+R67
+R79
+l18
+L7
+Z214 V`KhAJXMN581OIPMkMRlL:1
+R13
+R14
+R6

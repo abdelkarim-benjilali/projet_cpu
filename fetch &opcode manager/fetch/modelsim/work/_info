@@ -1,0 +1,58 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\fetch\modelsim
+T_opt
+V9IJMYTMih]co1DGkm@UCX1
+04 13 3 work registre_2_tb rtl 0
+Z2 =1-c80aa9f93a8a-5f209e2f-1ac-f8c
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tExplicit 1
+Z5 OE;O;6.3f;37
+Eregistre_2
+Z6 w1595972690
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+Z9 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+l0
+L4
+Z10 V5hno>d>YfmCe0fHndJ]9<2
+Z11 OE;C;6.3f;37
+32
+Z12 o-work work
+R4
+Artl
+R7
+Z13 DEx4 work 10 registre_2 0 22 5hno>d>YfmCe0fHndJ]9<2
+l11
+L10
+Z14 V;l5BLW8K[Q>K4OTCBW:Dm2
+R11
+32
+Z15 Mx1 4 ieee 14 std_logic_1164
+R12
+R4
+Eregistre_2_tb
+Z16 w1595973144
+R7
+Z17 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+Z18 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+l0
+L4
+Z19 ViZ;EiU]U`RaTP[S;5BX]33
+R11
+32
+R12
+R4
+Artl
+R7
+Z20 DEx4 work 13 registre_2_tb 0 22 iZ;EiU]U`RaTP[S;5BX]33
+l15
+L7
+Z21 VZnQBFhP2GUSEZjN@J;FAk2
+R11
+32
+R15
+R12
+R4

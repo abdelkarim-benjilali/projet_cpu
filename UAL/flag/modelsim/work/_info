@@ -1,0 +1,58 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\UAL\flag\modelsim
+T_opt
+VaEl_bRXP5J:CkWT^A1[gI3
+04 7 3 work flag_tb rtl 0
+Z2 =1-c80aa9f93a8a-5f1f1a59-29f-13c4
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tExplicit 1
+Z5 OE;O;6.3f;37
+Eflag
+Z6 w1595873463
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/source/flag
+Z9 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/source/flag
+l0
+L3
+Z10 VJIXe6MDb`hW7BSD8RO<CI3
+Z11 OE;C;6.3f;37
+32
+Z12 o-work work
+R4
+Artl
+R7
+Z13 DEx4 work 4 flag 0 22 JIXe6MDb`hW7BSD8RO<CI3
+l8
+L7
+Z14 VF5A<4zI>f^nzm0hMiP<nW1
+R11
+32
+Z15 Mx1 4 ieee 14 std_logic_1164
+R12
+R4
+Eflag_tb
+Z16 w1595873844
+R7
+Z17 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/test bench/flag_tb
+Z18 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/flag/test bench/flag_tb
+l0
+L4
+Z19 VTn[F?eFcafK1Hn^O_R`h=0
+R11
+32
+R12
+R4
+Artl
+R7
+Z20 DEx4 work 7 flag_tb 0 22 Tn[F?eFcafK1Hn^O_R`h=0
+l16
+L7
+Z21 VYi`dcM^XWi;Fg^1z9NRb^2
+R11
+32
+R15
+R12
+R4

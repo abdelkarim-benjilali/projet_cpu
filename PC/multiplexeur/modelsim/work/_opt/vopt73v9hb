@@ -1,0 +1,93 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim
+T_opt
+Z2 VUE:AmXOkZQjP?XFbKzUIA1
+Z3 04 6 3 work mux_tb rtl 0
+Z4 =1-1eac4c20eafd-5f1f8c87-35e-1d88
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Pconstants
+Z8 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z9 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z10 w1595818212
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+Z13 V1EFnOb5IkbKzLeNfkzJFn2
+Z14 OE;C;6.3f;37
+Z15 o-work work
+R6
+Bbody
+DBx64 E:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R8
+32
+R9
+l0
+L34
+Z16 Vdz_FzaUUIY4oT8P3<M7e73
+R14
+R15
+R6
+nbody
+Emux
+Z17 w1595902769
+Z18 DPx64 E:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+Z19 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R8
+32
+Z20 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+Z21 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/source/mux.vhd
+l0
+L5
+Z22 VW`MHaVbnHT_5zfCF=CH;e3
+R14
+R15
+R6
+Artl
+R18
+R19
+R8
+Z23 DEx64 E:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim\work 3 mux 0 22 W`MHaVbnHT_5zfCF=CH;e3
+32
+Mx3 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Mx2 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+Z24 Mx1 64 E:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim\work 9 constants
+l12
+L11
+Z25 VVaIP1C4jcEA@SBY9RHCBf0
+R14
+R15
+R6
+Emux_tb
+Z26 w1595903101
+R18
+R8
+32
+Z27 8E:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+Z28 FE:/karim/etudes/S2/VHDL/projet_cpu/PC/multiplexeur/test bench/mux_tb.vhd
+l0
+L4
+Z29 V?L0Ll;QVjPiV2V3[Na>ZU2
+R14
+R15
+R6
+Artl
+R23
+R18
+R8
+DEx64 E:\karim\etudes\S2\VHDL\projet_cpu\PC\multiplexeur\modelsim\work 6 mux_tb 0 22 ?L0Ll;QVjPiV2V3[Na>ZU2
+32
+Mx2 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+R24
+l15
+L6
+Z30 Vfm98VfA>KXVIm6:aVV6Q=0
+R14
+R15
+R6

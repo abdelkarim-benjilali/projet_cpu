@@ -1,0 +1,203 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim
+T_opt
+Z2 VIQN9MTS3@<8DVUola7bJA3
+Z3 04 6 3 work top_tb rtl 0
+Z4 =1-c80aa9f93a8a-5f25795c-366-161c
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Emultiplexeur
+Z8 w1595974544
+Z9 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+l0
+L4
+Z13 V<=4]ZDHclVj3ie_Wj1]f83
+Z14 OE;C;6.3f;37
+32
+Z15 o-work work
+R6
+Artl
+Z16 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z17 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z18 DEx74 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim\work 12 multiplexeur 0 22 <=4]ZDHclVj3ie_Wj1]f83
+32
+Z19 Mx2 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z20 Mx1 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+l11
+L10
+Z21 VzTP<>1QQQ[_GUGT?C5keE0
+R14
+R15
+R6
+Emultiplexeur_tb
+Z22 w1595974628
+R10
+Z23 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+Z24 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+l0
+L4
+Z25 VgkN_bhgz7l7IA4]cgJe=K2
+R14
+32
+R15
+R6
+Artl
+R10
+Z26 DEx4 work 15 multiplexeur_tb 0 22 gkN_bhgz7l7IA4]cgJe=K2
+l16
+L7
+Z27 V<CZ3@ojTZSnin2<>ghInJ0
+R14
+32
+Z28 Mx1 4 ieee 14 std_logic_1164
+R15
+R6
+Eregistre
+Z29 w1595975989
+R10
+Z30 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/source/registre.vhd
+Z31 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/source/registre.vhd
+l0
+L4
+Z32 VfaEY:Po4Xl]OA4D_a_J`e1
+R14
+32
+R15
+R6
+Artl
+R17
+Z33 DEx74 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim\work 8 registre 0 22 faEY:Po4Xl]OA4D_a_J`e1
+32
+Z34 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+l16
+L15
+Z35 VQdC>P>I2RBIVE>NT9H2:<1
+R14
+R15
+R6
+Eregistre_2
+Z36 w1596044898
+R17
+32
+Z37 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+Z38 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/source/registre_2.vhd
+l0
+L4
+Z39 VQ0FT7UH;NEfl3TY@0SM511
+R14
+R15
+R6
+Artl
+R17
+Z40 DEx74 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim\work 10 registre_2 0 22 Q0FT7UH;NEfl3TY@0SM511
+32
+R34
+l11
+L10
+Z41 VCH>LU=dgTX@M;m:>_OElz0
+R14
+R15
+R6
+Eregistre_2_tb
+Z42 w1595973144
+R10
+Z43 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+Z44 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/fetch/test bench/registre_2_tb.vhd
+l0
+L4
+Z45 ViZ;EiU]U`RaTP[S;5BX]33
+R14
+32
+R15
+R6
+Artl
+R10
+Z46 DEx4 work 13 registre_2_tb 0 22 iZ;EiU]U`RaTP[S;5BX]33
+l15
+L7
+Z47 VZnQBFhP2GUSEZjN@J;FAk2
+R14
+32
+R28
+R15
+R6
+Eregistre_tb
+Z48 w1595976472
+R10
+Z49 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/test bench/registre_tb.vhd
+Z50 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/registre/test bench/registre_tb.vhd
+l0
+L4
+Z51 ViLFg`[FZ>bc8dXLLM2jFA0
+R14
+32
+R15
+R6
+Artl
+R10
+Z52 DEx4 work 11 registre_tb 0 22 iLFg`[FZ>bc8dXLLM2jFA0
+l22
+L7
+Z53 VnS@]R^Ql@8Ao`VGN0XHc80
+R14
+32
+R28
+R15
+R6
+Etop
+Z54 w1596044049
+R17
+32
+Z55 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/source/top.vhd
+Z56 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/source/top.vhd
+l0
+L4
+Z57 V_Z1X<lEj[Wdj^[^aoJJJN1
+R14
+R15
+R6
+Artl
+R40
+R33
+R18
+R17
+Z58 DEx74 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim\work 3 top 0 22 _Z1X<lEj[Wdj^[^aoJJJN1
+32
+R34
+l34
+L13
+Z59 V@eV619z;g]h><K[MGLAGJ0
+R14
+R15
+R6
+Etop_tb
+Z60 w1596042365
+R17
+32
+Z61 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/test bench/top_tb.vhd
+Z62 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/top/test bench/top_tb.vhd
+l0
+L4
+Z63 V0<U3Cij8SOzT9ZbFb@Yn80
+R14
+R15
+R6
+Artl
+R58
+R17
+Z64 DEx74 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\top\modelsim\work 6 top_tb 0 22 0<U3Cij8SOzT9ZbFb@Yn80
+32
+R34
+l23
+L7
+Z65 VKHRHgE^0K3WbZCEoIe@]^2
+R14
+R15
+R6

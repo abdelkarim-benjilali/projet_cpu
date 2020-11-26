@@ -1,0 +1,59 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use work.Constants.all; 
+    use IEEE.NUMERIC_STD.ALL;
+    entity alu_tb is 
+end alu_tb;
+
+architecture RTL of alu_tb is 
+component alu 
+    port(clk_alu,rst_alu,outsel_alu: in std_logic;
+        ressel_alu:in std_logic_vector(1 downto 0);
+        opcode_alu: in std_logic_vector(4 downto 0);
+        din_alu:in std_logic_vector(7 downto 0);
+        flag0_alu,flag1_alu:out std_logic;
+        dout_alu:out std_logic_vector(7 downto 0));
+    end component;
+    
+    signal clk_alu,rst_alu,outsel_alu,flag0_alu,flag1_alu:  std_logic;
+    signal din_alu,dout_alu: std_logic_vector(7 downto 0);
+    signal opcode_alu:  std_logic_vector(4 downto 0);
+    signal ressel_alu: std_logic_vector(1 downto 0);
+    begin
+        u0:alu port map(clk_alu,rst_alu,outsel_alu,ressel_alu,opcode_alu,din_alu,flag0_alu,flag1_alu,dout_alu);
+        process
+            begin 
+                clk_alu<='1';
+                wait for 10 ns;
+                clk_alu<='0';
+                wait for 10 ns;
+            end process;
+            process
+                begin 
+                    rst_alu<='1';
+                    wait for 15 ns;
+                    rst_alu<='0';
+                    wait for 505 ns;
+                end process;
+                process
+                    begin
+                    opcode_alu<=OPCodeINC0;         
+                    ressel_alu<="01"; 
+                    outsel_alu<='0';  
+                    wait for 10 ns;
+                    opcode_alu<=OPCodeINC1;  
+                    ressel_alu<="10"; 
+                    outsel_alu<='0';            
+                    wait for 20 ns;
+                    opcode_alu<=OPCodeADD;          
+                    ressel_alu<="11";
+                    outsel_alu<='0';
+                     wait for 20 ns;
+                     opcode_alu<=OPCodeADD;          
+                    ressel_alu<="11";
+                    outsel_alu<='1';
+                    wait for 20 ns;
+                 end process;
+             end RTL; 
+                     
+                     

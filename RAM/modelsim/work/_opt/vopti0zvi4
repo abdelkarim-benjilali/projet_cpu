@@ -1,0 +1,93 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim
+T_opt
+Z2 VSYL:JAGRVk>;LMdI3]QG[3
+Z3 04 6 3 work ram_tb rtl 0
+Z4 =1-1eac4c20eafd-5f29cbcc-1c1-18d8
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Pconstants
+Z8 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z9 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z10 w1595818212
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+Z13 V1EFnOb5IkbKzLeNfkzJFn2
+Z14 OE;C;6.3f;37
+Z15 o-work work
+R6
+Bbody
+Z16 DBx52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R8
+32
+R9
+l0
+L34
+Z17 Vdz_FzaUUIY4oT8P3<M7e73
+R14
+R15
+R6
+nbody
+Eram
+Z18 w1596574644
+Z19 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z20 DPx52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R8
+32
+Z21 8E:/karim/etudes/S2/VHDL/projet_cpu/RAM/source/ram.vhd
+Z22 FE:/karim/etudes/S2/VHDL/projet_cpu/RAM/source/ram.vhd
+l0
+L5
+Z23 V0VX3FVL?YOfoEXaT>^^103
+R14
+R15
+R6
+Artl
+R19
+R20
+R8
+Z24 DEx52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 3 ram 0 22 0VX3FVL?YOfoEXaT>^^103
+32
+Z25 Mx3 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z26 Mx2 52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 9 constants
+Z27 Mx1 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+l19
+L13
+Z28 VV[LVkJ6YiKlASIlf<lQiY2
+R14
+R15
+R6
+Eram_tb
+Z29 w1596574540
+R20
+R8
+32
+Z30 8E:/karim/etudes/S2/VHDL/projet_cpu/RAM/test bench/ram_tb.vhd
+Z31 FE:/karim/etudes/S2/VHDL/projet_cpu/RAM/test bench/ram_tb.vhd
+l0
+L4
+Z32 Vj=6^`M^>34`Uo2jYlX3LD0
+R14
+R15
+R6
+Artl
+R24
+R20
+R8
+Z33 DEx52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 6 ram_tb 0 22 j=6^`M^>34`Uo2jYlX3LD0
+32
+Z34 Mx2 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z35 Mx1 52 E:\karim\etudes\S2\VHDL\projet_cpu\RAM\modelsim\work 9 constants
+l19
+L7
+Z36 V;8zFJ3gmU]NKkb_6EAB>40
+R14
+R15
+R6

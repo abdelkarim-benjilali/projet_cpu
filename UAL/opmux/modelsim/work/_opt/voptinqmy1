@@ -1,0 +1,96 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim
+T_opt
+Z2 V0^oNaZYR:APP9b8kLDOb;1
+Z3 04 8 3 work opmux_tb rtl 0
+Z4 =1-1eac4c20eafd-5f1e447d-18b-1698
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Pconstants
+Z8 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z9 Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z10 w1595818212
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/modelsim/constants.vhd
+l0
+L4
+Z13 V1EFnOb5IkbKzLeNfkzJFn2
+Z14 OE;C;6.3f;37
+Z15 o-work work
+R6
+Bbody
+DBx58 E:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R8
+32
+R9
+l0
+L34
+Z16 Vdz_FzaUUIY4oT8P3<M7e73
+R14
+R15
+R6
+nbody
+Eopmux
+Z17 w1595818419
+Z18 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z19 DPx58 E:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim\work 9 constants 0 22 1EFnOb5IkbKzLeNfkzJFn2
+R8
+32
+Z20 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/source/opmux.vhd
+Z21 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/source/opmux.vhd
+l0
+L5
+Z22 Vea4]aYzl?D^2;lV3Cjc`o2
+R14
+R15
+R6
+Artl
+R18
+R19
+R8
+Z23 DEx58 E:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim\work 5 opmux 0 22 ea4]aYzl?D^2;lV3Cjc`o2
+32
+Z24 Mx3 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Z25 Mx2 58 E:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim\work 9 constants
+Z26 Mx1 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+l11
+L10
+Z27 Vfb^TEGiJRARN<N[8UYK4d1
+R14
+R15
+R6
+Eopmux_tb
+Z28 w1595819122
+R18
+R19
+R8
+32
+Z29 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/test bench/opmux_tb
+Z30 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/opmux/test bench/opmux_tb
+l0
+L5
+Z31 VcMGZiQBeFa[[`6mR;60V<2
+R14
+R15
+R6
+Artl
+R23
+R18
+R19
+R8
+DEx58 E:\karim\etudes\S2\VHDL\projet_cpu\UAL\opmux\modelsim\work 8 opmux_tb 0 22 cMGZiQBeFa[[`6mR;60V<2
+32
+R24
+R25
+R26
+l15
+L7
+Z32 V]D[7gPZ:XTznShG8WJ`Th3
+R14
+R15
+R6

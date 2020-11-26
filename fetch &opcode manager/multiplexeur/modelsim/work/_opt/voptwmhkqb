@@ -1,0 +1,62 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\multiplexeur\modelsim
+T_opt
+Z2 VSXAcoUUcc2BX;zUc35JJg0
+Z3 04 15 3 work multiplexeur_tb rtl 0
+Z4 =1-c80aa9f93a8a-5f20a3fa-46-1dd4
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OE;O;6.3f;37
+Emultiplexeur
+Z8 w1595974544
+Z9 DPx22 C:\Modeltech_6.3f\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z10 DPx22 C:\Modeltech_6.3f\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z11 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+Z12 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/source/multiplexeur.vhd
+l0
+L4
+Z13 V<=4]ZDHclVj3ie_Wj1]f83
+Z14 OE;C;6.3f;37
+Z15 o-work work
+R6
+Artl
+R9
+R10
+Z16 DEx83 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\multiplexeur\modelsim\work 12 multiplexeur 0 22 <=4]ZDHclVj3ie_Wj1]f83
+32
+Mx2 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+Mx1 22 C:\Modeltech_6.3f\ieee 11 numeric_std
+l11
+L10
+Z17 VzTP<>1QQQ[_GUGT?C5keE0
+R14
+R15
+R6
+Emultiplexeur_tb
+Z18 w1595974628
+R10
+32
+Z19 8E:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+Z20 FE:/karim/etudes/S2/VHDL/projet_cpu/fetch &opcode manager/multiplexeur/test bench/multiplexeur_tb.vhd
+l0
+L4
+Z21 VgkN_bhgz7l7IA4]cgJe=K2
+R14
+R15
+R6
+Artl
+R16
+R10
+DEx83 E:\karim\etudes\S2\VHDL\projet_cpu\fetch &opcode manager\multiplexeur\modelsim\work 15 multiplexeur_tb 0 22 gkN_bhgz7l7IA4]cgJe=K2
+32
+Mx1 22 C:\Modeltech_6.3f\ieee 14 std_logic_1164
+l16
+L7
+Z22 V<CZ3@ojTZSnin2<>ghInJ0
+R14
+R15
+R6

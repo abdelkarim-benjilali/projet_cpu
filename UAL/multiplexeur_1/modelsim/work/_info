@@ -1,0 +1,68 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\karim\etudes\S2\VHDL\projet_cpu\UAL\multiplexeur_1\modelsim
+T_opt
+V@NF40ka>L^l?P5GlP5BgB2
+04 17 3 work multiplexeur_1_tb rtl 0
+=1-1eac4c20eafd-5f1e39ae-202-1834
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tExplicit 1
+Z3 OE;O;6.3f;37
+T_opt1
+V1zEJh5fjB]<_NGZL_4Oae3
+04 14 3 work multiplexeur_1 rtl 0
+=1-1eac4c20eafd-5f1e38b5-11c-1ea4
+R1
+R2
+R3
+Emultiplexeur_1
+Z4 w1595816437
+Z5 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z7 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/source/multiplexeur_1
+Z8 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/source/multiplexeur_1
+l0
+L4
+V]ZnI0g2lzU5K;J7m;F05S1
+Z9 OE;C;6.3f;37
+32
+Z10 o-work work
+R2
+Artl
+R5
+R6
+Z11 DEx4 work 14 multiplexeur_1 0 22 ]ZnI0g2lzU5K;J7m;F05S1
+l11
+L10
+VROgNhDiF:ZiYYMiloO;6e3
+R9
+32
+Z12 Mx2 4 ieee 14 std_logic_1164
+Z13 Mx1 4 ieee 11 numeric_std
+R10
+R2
+Emultiplexeur_1_tb
+Z14 w1595802529
+R6
+Z15 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/test bench/multiplexeur_1_tb.vhd
+Z16 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/multiplexeur_1/test bench/multiplexeur_1_tb.vhd
+l0
+L4
+VUS@kM__9cL;TDmg7A]maX2
+R9
+32
+R10
+R2
+Artl
+R6
+DEx4 work 17 multiplexeur_1_tb 0 22 US@kM__9cL;TDmg7A]maX2
+l16
+L7
+VL[V`jL]1hdC`b6jH0O>Vz2
+R9
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+R10
+R2

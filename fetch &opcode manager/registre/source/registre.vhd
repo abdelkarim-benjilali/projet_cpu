@@ -1,0 +1,31 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    
+    entity registre is 
+    port(clk_reg:in std_logic;
+        rst_reg:in std_logic;
+        data_in_reg:in std_logic_vector(15 downto 0);
+        opcode_reg:out std_logic_vector(4 downto 0);
+        outsel_reg:out std_logic;
+        ressel_reg:out std_logic_vector(1 downto 0);
+        opdata_reg:out std_logic_vector(7 downto 0));
+        
+    end registre;
+    
+    architecture RTL of registre is 
+    begin 
+        process(clk_reg,rst_reg)
+            begin 
+                if(rst_reg='1') then
+                    opcode_reg<="00000";
+                    outsel_reg<='0';
+                    ressel_reg<="00";
+                    opdata_reg<="00000000";
+                    elsif(rising_edge(clk_reg)) then
+                    opcode_reg<=data_in_reg(15 DOWNTO 11) ;
+                    outsel_reg<=data_in_reg(10);
+                    ressel_reg<=data_in_reg(9 downto 8);
+                    opdata_reg<=data_in_reg(7 downto 0);
+                end if;
+        end process;
+    end RTL;

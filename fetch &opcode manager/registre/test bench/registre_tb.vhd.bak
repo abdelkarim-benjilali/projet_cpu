@@ -1,0 +1,40 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    
+    entity registre_tb is 
+end registre_tb;
+
+architecture RTL of registre_tb is 
+component registre
+    port(clk_reg:in std_logic;
+        rst_reg:in std_logic;
+        data_in_reg:in std_logic_vector(15 downto 0);
+        data_out_reg:out std_logic_vector(15 downto 0));
+    end component;
+    signal clk_reg,rst_reg:std_logic;
+    signal data_in_reg,data_out_reg: std_logic_vector(15 downto 0);
+    begin
+       u0: registre port map(clk_reg,rst_reg,data_in_reg,data_out_reg);
+       process
+           begin
+               clk_reg<='1';
+               wait for 20 ns;
+               clk_reg<='0';
+               wait for 20 ns;
+           end process;
+           process
+               begin
+                   rst_reg<='0';
+                   wait for 75 ns;
+                   rst_reg<='1';
+                   wait for 15 ns;
+               end process;
+               
+            process
+                begin
+                    data_in_reg<="1111111100000000";
+                    wait for 30 ns;
+                    data_in_reg<="0000000011111111";
+                    wait for 30 ns;
+                end process; 
+       end RTL;

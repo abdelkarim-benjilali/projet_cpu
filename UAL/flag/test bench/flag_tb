@@ -1,0 +1,25 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    
+    entity flag_tb is 
+end flag_tb;
+
+architecture RTL of flag_tb is 
+component flag
+    port(flag_in:std_logic_vector(7 downto 0);
+            flag_out:out std_logic);
+        end component;
+        
+        signal flag_in:std_logic_vector(7 downto 0);
+        signal flag_out:std_logic;
+        
+        begin 
+            u0: flag port map(flag_in,flag_out);
+            process
+                begin
+                    flag_in<="11110000";
+                    wait for 10 ns;
+                    flag_in<=(others=>'0');
+                    wait for 10 ns;
+                end process;
+            end RTL;

@@ -1,0 +1,18 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+     use IEEE.NUMERIC_STD.ALL;
+     use work.Constants.all; 
+    entity mux is 
+    port(pc_mux,opdata_mux: in std_logic_vector(7 downto 0);
+        opcode_mux:in std_logic_vector(4 downto 0);
+        fetch_mux,flag0_mux,flag1_mux: in std_logic;
+        mux_out:out std_logic_vector(7 downto 0):="00000000");
+    end mux;
+    architecture RTL of mux is
+        begin 
+            mux_out<=opdata_mux when (opcode_mux=OPCodeGOTO) or 
+								(opcode_mux=OPCodeGOTOIFD0 and flag0_mux='1') or 
+								(opcode_mux=OPCodeGOTOIFD1 and flag1_mux='1') else
+								std_logic_vector(unsigned(pc_mux)+1) when fetch_mux='1' else 
+								pc_mux;
+			end RTL;

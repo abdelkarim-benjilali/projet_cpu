@@ -1,0 +1,889 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+11
+1040
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+up
+# storage
+db|up.(0).cnf
+db|up.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|source|up.vhd
+26355fabe99c4a1227af82cc21ec19a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+alu
+# storage
+db|up.(1).cnf
+db|up.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|UAL|alu|source|alu.vhd
+88d2409257d21968433657fc14990e6
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(ressel_alu)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_alu)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(din_alu)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(dout_alu)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+alu:u0
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+opmux
+# storage
+db|up.(2).cnf
+db|up.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|UAL|opmux|source|opmux.vhd
+7964288b7125fd97b97d64872854e9c5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(opmux_dout)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opmux_opcode)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(opmux_din)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opmux_d0)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opmux_d1)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+alu:u0|opmux:u0
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur_1
+# storage
+db|up.(3).cnf
+db|up.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|UAL|multiplexeur_1|source|multiplexeur_1.vhd
+e848224a2d2f33c2fbd18e338f83539
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(d0_mux_1)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(op_mux_1)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_out_mux_1)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+alu:u0|multiplexeur_1:u1
+alu:u0|multiplexeur_1:u2
+alu:u0|multiplexeur_1:u5
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+registre_1
+# storage
+db|up.(4).cnf
+db|up.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|UAL|registre_1|source|registre_1.vhd
+c52072507cb5e27f678662aab64966a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(data_in_reg_1)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_out_reg_1)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+alu:u0|registre_1:u3
+alu:u0|registre_1:u4
+pc:u1|registre_1:u1
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+flag
+# storage
+db|up.(5).cnf
+db|up.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|UAL|flag|source|flag.vhd
+98e3f9262f60cfda18ec92b8d3b7e564
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(flag_in)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+alu:u0|flag:u6
+alu:u0|flag:u7
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+pc
+# storage
+db|up.(6).cnf
+db|up.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|PC|pc|source|pc.vhd
+59c2d1dbe2cca69a409cf0b9dd44dae
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(opdata_pc)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_pc)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(pc_out)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+pc:u1
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+mux
+# storage
+db|up.(7).cnf
+db|up.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|PC|multiplexeur|source|mux.vhd
+bf4e75eb24908bb1b173b65559ac042
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(pc_mux)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opdata_mux)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_mux)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(mux_out)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+pc:u1|mux:u0
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+mux_up
+# storage
+db|up.(8).cnf
+db|up.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|mux|source|mux.vhd
+cc0f98dce8a1b469e2bf325da7ab79f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(opdata_mux_up)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(dbus_mux_up)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_mux_up)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(din_mux_up)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+mux_up:u2
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+top
+# storage
+db|up.(9).cnf
+db|up.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fetch &opcode manager|top|source|top.vhd
+f66e9bf567f52e502e1963d993f92183
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(dbus_top)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_top)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(ressel_top)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(opdata_top)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+top:u3
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur
+# storage
+db|up.(10).cnf
+db|up.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fetch &opcode manager|multiplexeur|source|multiplexeur.vhd
+96e1b9bbaebea1edd43ffc2ad68c44
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(mux_dbus)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(mux_data_out)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+top:u3|multiplexeur:u0
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+registre
+# storage
+db|up.(11).cnf
+db|up.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fetch &opcode manager|registre|source|registre.vhd
+78b4eaa0113d2d874f733adc61f6c3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(data_in_reg)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_reg)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(ressel_reg)
+1 downto 0
+PARAMETER_STRING
+USR
+ constraint(opdata_reg)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+top:u3|registre:u1
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+registre_2
+# storage
+db|up.(12).cnf
+db|up.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|fetch &opcode manager|fetch|source|registre_2.vhd
+8698b3e267c6cc5118ecb5a18c2ceee
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+top:u3|registre_2:u2
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+ioh
+# storage
+db|up.(13).cnf
+db|up.(13).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|input_output|ioh|source|ioh.vhd
+737375e1d3984c115a1e15e6cfd5d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(dbus_out_ioh)
+15 downto 0
+PARAMETER_STRING
+USR
+ constraint(pc_ioh)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opdata_ioh)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_ioh)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(dout_ioh)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(addbus_ioh)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+ioh:u4
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur_1_ioh
+# storage
+db|up.(14).cnf
+db|up.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|input_output|multiplexeur_1|source|multiplexeur_1.vhd
+87b040ffe8216281ec857b2b8662ea4
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(dout_1)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_1)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(dbus_1)
+15 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+ioh:u4|multiplexeur_1_ioh:u0
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur_2_ioh
+# storage
+db|up.(15).cnf
+db|up.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|input_output|multiplexeur_2|source|multiplexeur_2.vhd
+c9e01d121b92a2e4a4d6e5f6b20e073
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(pc_2)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opdata_2)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(opcode_2)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(addbus_2)
+7 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+ioh:u4|multiplexeur_2_ioh:u1
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur_3_ioh
+# storage
+db|up.(16).cnf
+db|up.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|input_output|multiplexeur_3|source|multiplexeur_3.vhd
+56f7f570d94376d2787b2ec1829fef3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(opcode_3)
+4 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+ioh:u4|multiplexeur_3_ioh:u2
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+multiplexeur_4_ioh
+# storage
+db|up.(17).cnf
+db|up.(17).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|input_output|multiplexeur_4|source|multiplexeur_4.vhd
+dc5df1916c1cc7ceb3b26e22c1d3821
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(opcode_4)
+4 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+..|..|UAL|opmux|modelsim|constants.vhd
+7fb5badfc47791740c54bb09e69446
+}
+# hierarchies {
+ioh:u4|multiplexeur_4_ioh:u3
+}
+# lmf
+c:|altera|90|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,41 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use work.Constants.all; 
+    use IEEE.NUMERIC_STD.ALL;
+    entity opmux_tb is 
+end opmux_tb;
+architecture RTL of opmux_tb is 
+component opmux 
+    port(opmux_dout:out std_logic_vector(7 downto 0);
+       opmux_opcode:in std_logic_vector(4 downto 0);
+        opmux_din,opmux_d0,opmux_d1:in std_logic_vector(7 downto 0));
+    end component;
+    signal opmux_dout,opmux_din,opmux_d0,opmux_d1:std_logic_vector(7 downto 0);
+    signal opmux_opcode:std_logic_vector(4 downto 0);
+    begin 
+        u0:opmux port map(opmux_dout,opmux_opcode,opmux_din,opmux_d0,opmux_d1);
+        process
+            begin
+            opmux_d0<="00001001";
+            opmux_d1<="00001000";
+            opmux_din<="11110000";
+            wait for 200 ns;
+            opmux_d0<="10001001";
+            opmux_d1<="10001000";
+            opmux_din<="1111100";
+            wait for 200 ns;
+        end process;
+        process
+            begin
+                opmux_opcode<=OPCodeNOP;
+                wait for 10 ns;
+                opmux_opcode<=OPCodeINC0;
+                wait for 10 ns;
+                opmux_opcode<=OPCodeDEC0;
+                wait for 10 ns;
+                opmux_opcode<=OPCodeAND;
+                wait for 10 ns;
+                opmux_opcode<=OPCodeADD;
+                wait for 10 ns;
+            end process;
+        end RTL;

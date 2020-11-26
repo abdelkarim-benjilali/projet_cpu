@@ -1,0 +1,58 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dE:\karim\etudes\S2\VHDL\projet_cpu\UAL\registre_1\modelsim
+T_opt
+VE>c43f?Ed0^`cHQ672dHI1
+04 13 3 work registre_1_tb rtl 0
+Z2 =1-c80aa9f93a8a-5f5be0b9-242-2040
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tExplicit 1
+Z5 OE;O;6.3f;37
+Eregistre_1
+Z6 w1599856811
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+Z9 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/source/registre_1.vhd
+l0
+L4
+Z10 Vbge4f1XWiez;MJ`TJ@G7=0
+Z11 OE;C;6.3f;37
+32
+Z12 o-work work
+R4
+Artl
+R7
+Z13 DEx4 work 10 registre_1 0 22 bge4f1XWiez;MJ`TJ@G7=0
+l12
+L11
+Z14 V@Bzg5HQX:TC6FAYBfYiJ^3
+R11
+32
+Z15 Mx1 4 ieee 14 std_logic_1164
+R12
+R4
+Eregistre_1_tb
+Z16 w1595799601
+R7
+Z17 8E:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/test bench/registre_1_tb.vhd
+Z18 FE:/karim/etudes/S2/VHDL/projet_cpu/UAL/registre_1/test bench/registre_1_tb.vhd
+l0
+L4
+Z19 Vach]?2=<]HzXAW`Eelccf0
+R11
+32
+R12
+R4
+Artl
+R7
+Z20 DEx4 work 13 registre_1_tb 0 22 ach]?2=<]HzXAW`Eelccf0
+l16
+L7
+Z21 V5MP<]0aFk?I?3OUEdFR981
+R11
+32
+R15
+R12
+R4

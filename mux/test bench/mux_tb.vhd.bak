@@ -1,0 +1,28 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use work.constants.all;
+    
+    entity mux_tb is 
+end mux_tb;
+architecture RTL of mux_tb is
+    component mux 
+        port(opdata_mux:in std_logic_vector(7 downto 0);
+    dbus_mux:in std_logic_vector(7 downto 0);
+    opcode_mux: in std_logic_vector(4 downto 0);
+    din_mux:out std_logic_vector(7 downto 0));
+end component;
+    signal opdata_mux,dbus_mux,din_mux:std_logic_vector(7 downto 0);
+    signal opcode_mux:std_logic_vector(4 downto 0);
+    
+    begin 
+        u0:mux port map(opdata_mux,dbus_mux,opcode_mux,din_mux);
+        process
+            begin
+                opdata_mux<="11110000";
+                dbus_mux<="00001111";
+                opcode_mux<=OPCodeSET;
+                wait for 20 ns;
+                opcode_mux<=OPCodeSETL;
+                wait for 20 ns;
+            end process;
+        end RTL;
